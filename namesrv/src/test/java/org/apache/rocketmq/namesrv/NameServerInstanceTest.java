@@ -37,6 +37,8 @@ public class NameServerInstanceTest {
         nameSrvController.start();
     }
 
+
+
     @After
     public void shutdown() throws Exception {
         if (nameSrvController != null) {
